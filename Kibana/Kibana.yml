@@ -1,0 +1,5 @@
+sudo bash -c 'cat > /etc/kibana/kibana.yml << EOL
+server.port: 5601
+server.host: "localhost"
+elasticsearch.hosts: ["http://localhost:9200"]
+EOL'
