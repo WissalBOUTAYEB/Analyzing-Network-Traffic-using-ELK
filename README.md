@@ -2,7 +2,7 @@
 
 📌 Description
 
-This project utilizes the ELK stack (Elasticsearch, Logstash, Kibana) to analyze network traffic. It captures, indexes, and visualizes packet data, enabling the identification of trends and detection of potential threats.
+This project use the ELK stack (Elasticsearch, Logstash, Kibana) to analyze network traffic. It captures, indexes, and visualizes packet data, enabling the identification of trends and detection of potential threats.
 
 🚀 Key Features
 
