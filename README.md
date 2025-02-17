@@ -1,6 +1,11 @@
-# ELK_Project
-This project successfully demonstrates the integration of various tools within the 
-Elastic Stack to analyze network traffic captured in PCAP files. By leveraging 
-tcpdump for packet capture, Filebeat for log shipping, Logstash for data processing, 
-and Elasticsearch for storage and search capabilities, we have created a robust 
-pipeline for real-time network analysis
+📡 ELK Stack - Network Traffic Analysis
+📌 Description
+Ce projet utilise la stack ELK (Elasticsearch, Logstash, Kibana) pour analyser le trafic réseau. Il capture, indexe et visualise les données des paquets réseau, permettant d'identifier les tendances et détecter les menaces potentielles.
+
+🚀 Fonctionnalités principales
+✅ Installation et configuration d'Elasticsearch, Logstash et Kibana.
+✅ Capture du trafic réseau avec tcpdump.
+✅ Analyse des fichiers PCAP à l’aide d’un script Python utilisant PyShark.
+✅ Transformation des données en format JSON et indexation dans Elasticsearch.
+✅ Création de tableaux de bord interactifs sur Kibana.
+✅ Détection des anomalies et surveillance des logs.
