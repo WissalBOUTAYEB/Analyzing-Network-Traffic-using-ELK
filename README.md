@@ -24,7 +24,10 @@ Contributors
 License
 
 🌟 Project Overview
-This project focuses on setting up the ELK Stack to analyze network traffic. Key steps include:
+
+This project focuses on setting up the ELK Stack to analyze network traffic. 
+
+Key steps include:
 
 Capturing network packets using tcpdump.
 
@@ -35,6 +38,7 @@ Indexing data into Elasticsearch.
 Visualizing data in Kibana dashboards.
 
 🚀 Features
+
 Packet Capture: Uses tcpdump to capture network traffic.
 
 Data Processing: Python script to extract and transform packet data.
@@ -45,8 +49,11 @@ Visualization: Kibana dashboards for protocol distribution, top IPs, and traffic
 
 Monitoring: Log monitoring for troubleshooting.
 
+
 🛠 Technologies Used
+
 Technology	Purpose
+
 Elasticsearch	Data storage and search engine
 Logstash	Data processing pipeline
 Kibana	Data visualization
