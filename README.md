@@ -1,19 +1,55 @@
-📡 ELK Stack - Network Traffic Analysis
+📊 ELK Stack Project: Network Traffic Analysis
+ELK Stack Python Elasticsearch Kibana Logstash
 
-📌 Description
+This project demonstrates how to use the ELK Stack (Elasticsearch, Logstash, Kibana) to analyze network traffic captured in PCAP files. The goal is to provide insights into network behavior, identify potential security threats, and visualize traffic patterns.
 
-This project use the ELK stack (Elasticsearch, Logstash, Kibana) to analyze network traffic. It captures, indexes, and visualizes packet data, enabling the identification of trends and detection of potential threats.
+📌 Table of Contents
 
-🚀 Key Features
+Project Overview
 
-✅ Installation and configuration of Elasticsearch, Logstash, and Kibana.
+Features
 
-✅ Network traffic capture using tcpdump.
+Technologies Used
 
-✅ PCAP file analysis using a Python script with PyShark.
+Installation
 
-✅ Data transformation into JSON format and indexing in Elasticsearch.
+Usage
 
-✅ Creation of interactive dashboards in Kibana.
+Challenges & Solutions
 
-✅ Anomaly detection and log monitoring.
+Results
+
+Contributors
+
+License
+
+🌟 Project Overview
+This project focuses on setting up the ELK Stack to analyze network traffic. Key steps include:
+
+Capturing network packets using tcpdump.
+
+Processing PCAP files with a Python script (pyshark).
+
+Indexing data into Elasticsearch.
+
+Visualizing data in Kibana dashboards.
+
+🚀 Features
+Packet Capture: Uses tcpdump to capture network traffic.
+
+Data Processing: Python script to extract and transform packet data.
+
+ELK Integration: Data is indexed into Elasticsearch via Logstash.
+
+Visualization: Kibana dashboards for protocol distribution, top IPs, and traffic timelines.
+
+Monitoring: Log monitoring for troubleshooting.
+
+🛠 Technologies Used
+Technology	Purpose
+Elasticsearch	Data storage and search engine
+Logstash	Data processing pipeline
+Kibana	Data visualization
+Python	Scripting for PCAP analysis
+tcpdump	Network packet capture
+Filebeat	Lightweight log shipper
