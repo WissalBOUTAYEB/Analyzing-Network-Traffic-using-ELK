@@ -1,5 +1,7 @@
 📊 ELK Stack Project: Network Traffic Analysis
+
 ELK Stack Python Elasticsearch Kibana Logstash
+
 
 This project demonstrates how to use the ELK Stack (Elasticsearch, Logstash, Kibana) to analyze network traffic captured in PCAP files. The goal is to provide insights into network behavior, identify potential security threats, and visualize traffic patterns.
 
